@@ -1,0 +1,19 @@
+* Operating Systems project proposal.
+** OS: 
+   Linux NixOS 17.09.
+** Kernel version:
+   4.9.53 x64.
+** Libraries:
+   The Filesystem in Userpace (FUSE).
+** New functionality:
+The project adds to the linux operating system the ability to handle
+the Simple File System proposed by Brendan Trotter.
+** Changes to the kernel:
+None, the FUSE allows the user to create their own file system without
+editing the kernel code.
+** Description:
+Implement the Simple File System(SFS) proposed by Brendan Trotter with
+FUSE on the linu OS using the 4.9.53 kernel. The code will be written
+in C, to get more information about the SFS see the link:
+http://wiki.osdev.org/SFS or
+https://web.archive.org/web/20090923015653/http://dimensionalrift.homelinux.net/combuster/vdisk/sfs.html.
